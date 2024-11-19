@@ -1,3 +1,4 @@
+using System.CodeDom.Compiler;
 using UnityEngine;
 
 public class SpikeGenerator : MonoBehaviour
@@ -16,7 +17,14 @@ public class SpikeGenerator : MonoBehaviour
         GenerateSpike();
     }
 
-    public void GenerateSpike()
+    public void GenerateSpikeRandom()
+    {
+        float randomWait = Random.Range(0.1f, 0.2f);
+        Invoke("GenerateSpike", randomWait);
+
+    }
+
+    void GenerateSpike()
     {
         GameObject SpikeIns = Instantiate(spike, transform.position, transform.rotation);
         SpikeIns.GetComponent<SpikeScript>().spikeGenerator = this;
