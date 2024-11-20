@@ -1,4 +1,4 @@
--------GEO RUNNER--------
+----------------------------------------------------------------------GEO RUNNER----------------------------------------------------------------------
 
 Creator: Joseph Cheatham
 
@@ -18,3 +18,5 @@ Pause / Unpause - Escape
 
 Resources:
 "How to Make 2D Endless Runner Game in Unity - Beginner Friendly - Dino Game" by The Game Guy https://www.youtube.com/watch?v=xcmYsc2BY-U
+
+----------------------------------------------------------------------GEO RUNNER----------------------------------------------------------------------
